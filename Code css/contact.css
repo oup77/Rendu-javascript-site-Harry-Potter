@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 130px;
+}
+#nav {
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  background-color: orange;
+  display: flex;
+  height: 130px;
+  width: 100%;
+}
+
+a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.nav a {
+  color: rgb(76, 0, 255);
+}
+#logo {
+  height: 100%;
+  border-radius: 100%;
+}
+
+#barrenav {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.navlink {
+  background-color: orangered;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: "Lugrasimo", cursive;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+h2 {
+  font-family: "Lugrasimo", cursive;
+  margin: 0px 0px 10px 0px;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+h3 {
+  font-family: "Lugrasimo", cursive;
+  margin: 0px 0px 5px 0px;
+}
+
+.profilimg {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0px 10px;
+  background-color: white;
+}
+ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style-type: none;
+}
+
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bloccontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: orange;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 700px;
+  border-radius: 15%;
+}
+
+@media screen and (max-width: 900px) {
+  .bloccontact {
+    width: 500px;
+  }
+  .profilimg {
+    width: 150px;
+    height: 150px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 0px 0px 5px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  li {
+    font-size: 14px;
+  }
+  #logo {
+    height: 70%;
+  }
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer ul {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer a:hover {
+  color: blueviolet;
+}

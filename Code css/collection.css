@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 130px;
+}
+#nav {
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  background-color: orange;
+  display: flex;
+  height: 130px;
+  width: 100%;
+}
+
+a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.nav a {
+  color: rgb(76, 0, 255);
+}
+#logo {
+  height: 100%;
+  border-radius: 100%;
+}
+
+#barrenav {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.navlink {
+  background-color: orangered;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Lugrasimo", cursive;
+  font-size: 3rem;
+  margin: 5px 0px 0px 0px;
+  padding: 20px 0px 5px 0px;
+  background-color: rgb(255, 193, 77);
+}
+
+main h2 {
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 5px;
+}
+
+footer h2 {
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  margin: 20px 0px 5px 0px;
+}
+
+h3 {
+  font-family: "Lugrasimo", cursive;
+  font-size: 1.2rem;
+  margin: 0px 0px 20px 0px;
+}
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  background-color: rgb(255, 232, 201);
+}
+
+.cardimg {
+  width: 250px;
+}
+
+@media screen and (max-width: 796px) {
+  .cardimg {
+    width: 175px;
+  }
+  a {
+    font-size: 1rem;
+  }
+  #logo {
+    height: 70%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+footer {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer ul {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer a:hover {
+  color: blueviolet;
+}
+
+.cardsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listecard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 15px;
+  background-color: orange;
+  padding: 5px 15px;
+  border-radius: 10%;
+}
+
+.blockimg:hover {
+  transform: scale(1.1);
+}

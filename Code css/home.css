@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 130px;
+}
+#nav {
+  position: fixed;
+  z-index: 1;
+  background-color: orange;
+  display: flex;
+  height: 130px;
+  width: 100%;
+  align-items: center;
+}
+
+a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.nav a {
+  color: rgb(76, 0, 255);
+}
+#logo {
+  height: 100%;
+  border-radius: 100%;
+}
+
+#barrenav {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.navlink {
+  background-color: orangered;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Lugrasimo", cursive;
+  text-align: center;
+  color: white;
+  background-color: rgb(29, 37, 48);
+  text-decoration: underline;
+  font-size: 50px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Lugrasimo", cursive;
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  color: rgb(255, 240, 240);
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Lugrasimo", cursive;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.bluewhite {
+  font-family: "Lugrasimo", cursive;
+  background-color: blue;
+  border-radius: 10%;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+section a:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images5.alphacoders.com/129/1299476.png);
+  background-size: cover;
+}
+
+#tradepull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.case {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 5%;
+}
+
+.imgpull {
+  width: 60%;
+}
+
+@keyframes cardspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imgpull:hover {
+  animation: cardspin 2s infinite linear;
+}
+
+.imgtrade {
+  width: 85%;
+}
+
+@keyframes cardmoov {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(20px);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(10);
+  }
+}
+
+.imgtrade:hover {
+  animation: cardmoov 2s infinite;
+}
+
+#textesec2 {
+  text-align: center;
+}
+
+#section2 {
+  background-color: orange;
+  padding: 10px;
+}
+
+.cardimg {
+  width: 40%;
+}
+
+.cardbox {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin: 5px;
+}
+
+.violet {
+  color: rgb(167, 0, 167) !important;
+}
+
+.green {
+  color: green;
+}
+
+.green2 {
+  color: rgb(0, 73, 0);
+}
+
+section p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer ul {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer a:hover {
+  color: blueviolet;
+}
+
+#cardlign {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bloctexte{
+  margin: 0px 0px 0px 10px;
+}
+
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+  #logo {
+    height: 70%;
+    border-radius: 100%;
+  }
+}
+

@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 130px;
+}
+#nav {
+  position: fixed;
+  z-index: 1;
+  background-color: orange;
+  display: flex;
+  height: 130px;
+  width: 100%;
+}
+
+a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.nav a {
+  color: rgb(76, 0, 255);
+}
+#logo {
+  height: 100%;
+  border-radius: 100%;
+}
+
+#barrenav {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navlink {
+  background-color: orangered;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(255, 245, 231);
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 68vh;
+}
+
+h1 {
+  font-family: "Lugrasimo", cursive;
+}
+#harrymeme {
+  width: 40%;
+  border-radius: 15%;
+}
+
+footer {
+  background-color: brown;
+  font-family: "Lugrasimo", cursive;
+  text-align: center;
+  padding: 50px 0px;
+  height: 20vh;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: blue;
+}

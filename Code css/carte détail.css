@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 238, 214);
+}
+
+header {
+  height: 130px;
+}
+#nav {
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  background-color: orange;
+  display: flex;
+  height: 130px;
+  width: 100%;
+}
+
+a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.nav a {
+  color: rgb(76, 0, 255);
+}
+#logo {
+  height: 100%;
+  border-radius: 100%;
+}
+
+#barrenav {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.navlink {
+  background-color: orangered;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadre {
+  padding: 15px;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+.bloctexte {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Lugrasimo", cursive;
+  background-color: orange;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 10%;
+  text-align: center;
+  text-decoration: underline;
+  width: 500px;
+}
+
+#nom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section h2 {
+  font-size: 50px;
+  width: 230px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px 0px;
+  background-color: orange;
+}
+
+.violet {
+  color: blueviolet;
+}
+
+.vertf{
+    color: rgb(0, 80, 0);
+}
+
+.vert{
+    color: green;
+}
+
+.orangered{
+    color: orangered;
+}
+
+.red{
+    color: red;
+}
+
+p {
+  margin: 0px 0px 20px 0px;
+  font-size: 20px;
+}
+
+section ul {
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px 0px 10px 0px;
+}
+
+section li {
+  margin: 7px 0px;
+  font-size: 20px;
+}
+
+#carteimg {
+  width: 400px;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer ul {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer a:hover {
+  color: blueviolet;
+}
+
+footer h2 {
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  margin: 20px 0px 5px 0px;
+}
+
+@media screen and (max-width: 986px) {
+    #carteimg{
+        width: 200px;
+    }
+h1 {
+  font-size: 30px;
+  width: 300px;
+}
+
+
+section h2 {
+  font-size: 30px;
+  width: 145px;
+ 
+}
+section ul {
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px 0px 5px 0px;
+}
+
+section li {
+  margin: 7px 0px;
+  font-size: 18px;
+
+}
+p{
+    font-size: 18px;
+}
+.main{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+}
