@@ -6,14 +6,18 @@
 header {
   height: 130px;
 }
-#nav {
+nav {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   background-color: orange;
   display: flex;
   height: 130px;
   width: 100%;
   align-items: center;
+}
+
+nav.dark {
+  background-color: rgb(122, 88, 23);
 }
 
 a {
@@ -26,7 +30,7 @@ nav a:hover {
 }
 
 .nav a {
-  color: rgb(76, 0, 255);
+  color: rgb(255, 255, 255);
 }
 #logo {
   height: 100%;
@@ -53,6 +57,10 @@ nav a:hover {
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
+}
+
+.navlink.dark {
+  background-color: rgb(122, 33, 0);
 }
 
 h1 {
@@ -129,6 +137,10 @@ section a:hover {
   border-radius: 5%;
 }
 
+.case.dark {
+  background-color: rgb(122, 88, 23);
+}
+
 .imgpull {
   width: 60%;
 }
@@ -178,6 +190,10 @@ section a:hover {
   padding: 10px;
 }
 
+#section2.dark {
+  background-color: rgb(122, 88, 23);
+}
+
 .cardimg {
   width: 40%;
 }
@@ -210,22 +226,30 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 200px;
+  height: 210px;
+}
+
+footer.dark {
+  background-color: rgb(37, 37, 37);
 }
 
 footer ul {
   text-align: center;
   margin: 10px;
   font-size: 20px;
+  list-style: none;
 }
 
-footer a {
+footer a,
+li {
   text-decoration: none;
   color: rgb(185, 185, 185);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
 }
 
-footer a:hover {
+footer a:hover,
+li:hover {
   color: blueviolet;
 }
 
@@ -234,7 +258,7 @@ footer a:hover {
   flex-wrap: wrap;
 }
 
-.bloctexte{
+.bloctexte {
   margin: 0px 0px 0px 10px;
 }
 
@@ -259,3 +283,46 @@ footer a:hover {
   }
 }
 
+.swiper-slide {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.subtitle {
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.slide-new {
+  background-image: url("../Image/castle.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.slide-exp {
+  background-image: url("../Image/bridge.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.slide-boss {
+  background-image: url("../Image/voldemort\ background.jpg");
+  background-size: cover;
+  align-items: center;
+}

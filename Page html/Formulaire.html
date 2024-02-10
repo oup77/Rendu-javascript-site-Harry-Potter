@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../Image/Harry Potter icon.png" />
+    <link rel="stylesheet" href="../Code css/Formulaire.css" />
+    <title>Formulaire</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap");
+    </style>
+  </head>
+  <body>
+    <h1>Créer ton compte dès maintenant !</h1>
+    <div class="message-error">
+      <ul></ul>
+    </div>
+    <div class="message-success">Compte créé avec succès !</div>
+
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="pseudo" id="pseudo" />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="classe">Sexe</label>
+        <div class="choix">
+          <input type="radio" name="classe" id="2dn" />
+          <label for="2dn">Homme</label>
+        </div>
+        <div class="choix">
+          <input type="radio" name="classe" id="1ere" />
+          <label for="1ere">Femme</label>
+        </div>
+        <div class="choix">
+          <input type="radio" name="classe" id="term" />
+          <label for="term">Inconnu</label>
+        </div>
+      </div>
+      <div>
+        <label for="axe-préféré">Votre personnage préféré</label>
+        <select name="axe-préféré" id="axe-préféré">
+          <option value="vide"></option>
+          <option value="jv">Harry Potter</option>
+          <option value="3D">Dumbledore</option>
+          <option value="CD">Hermione</option>
+          <option value="CDEB">Hagrid</option>
+          <option value="Coding">Volemort</option>
+        </select>
+      </div>
+
+      <button type="submit">S'inscrire</button>
+    </form>
+    <div class="bouton">
+      <a href="./home.html">Retour au menu</a>
+    </div>
+    <!-- Script en javascript -->
+    <script src="../Code js/Formulaire.js"></script>
+  </body>
+</html>
