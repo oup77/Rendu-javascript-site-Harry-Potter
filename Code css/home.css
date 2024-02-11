@@ -226,7 +226,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 210px;
+  height: 370px;
 }
 
 footer.dark {
@@ -325,4 +325,53 @@ li:hover {
   background-image: url("../Image/voldemort\ background.jpg");
   background-size: cover;
   align-items: center;
+}
+
+.list-tab {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  background-color: rgb(155, 155, 155);
+  padding-left: 5px;
+  box-shadow: 0 8px 16px rgba(146, 146, 146, 0.3);
+}
+.list-tab.dark {
+  background-color: rgb(75, 75, 75);
+}
+
+.tab {
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  font-size: larger;
+  background-color: gray;
+  border-color: rgb(78, 78, 78);
+  cursor: pointer;
+}
+.tab:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  display: none;
+  padding-left: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+.content.dark{
+  color: rgb(185, 185, 185);
+}
+
+.active {
+  display: block;
+}
+.tabs {
+  background-color: rgb(172, 172, 172);
+  padding: 5px 0px 50px 0px;
+  margin: 0px 30px;
+  box-shadow: 0 8px 16px rgba(146, 146, 146, 0.3);
+}
+.tabs.dark {
+  background-color: rgb(56, 56, 56);
 }
